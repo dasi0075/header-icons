@@ -11,7 +11,9 @@
 
 h2 {
   font-size: 2rem;
-  background-color: #d05c2e
+  background-color: #d05c2e;
+  margin: 0;
+  margin-top: .2em;
 }
 
 body {
@@ -34,7 +36,8 @@ img {
 ul {
   display: flex;
   justify-content: space-between;
-  padding: .4rem 0;
+  padding: 0;
+  margin: 0;
 }
 
 ul li {
@@ -42,7 +45,8 @@ ul li {
   font-weight: bold;
   list-style-type: none;
   text-decoration-style: none;
-  padding: .4rem 2rem ;
+  padding: .4rem 5rem;
+  border: 1px solid #a63f38;
 }
 
 ul li:hover {
@@ -56,4 +60,6 @@ ul a {
 
 nav {
   flex-grow: 2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
