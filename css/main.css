@@ -9,7 +9,7 @@
     box-sizing: inherit;
   }
 
-h2 {
+h1 {
   font-size: 2rem;
   background-color: #d05c2e;
   margin: 0;
@@ -44,18 +44,20 @@ ul li {
   font-size: 1.125rem;
   font-weight: bold;
   list-style-type: none;
-  text-decoration-style: none;
-  padding: .4rem 5rem;
   border: 1px solid #a63f38;
+  width: 33.333%;
 }
 
-ul li:hover {
+a:hover {
   background-color: #a63f38;
 }
 
 ul a {
   text-decoration: none;
   color: #fff;
+  display: block;
+  padding: .4rem 0;
+  text-align: center;
 }
 
 nav {
