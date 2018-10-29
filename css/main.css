@@ -3,16 +3,35 @@
     font-family: 'Merriweather', sans-serif;
     line-height: 1.5;
     color: #fff;
-    background-color: #d05c2e;
   }
 
   *, *::before, *::after {
     box-sizing: inherit;
   }
 
+h2 {
+  font-size: 2rem;
+  background-color: #d05c2e
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e
+}
+
+div {
+  display: flex;
+}
+
 img {
   width: 40px;
-  display: flex:
+}
+
+ul {
+  display: flex;
 }
 
 ul li {
