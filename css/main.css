@@ -1,0 +1,31 @@
+  html {
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #d05c2e;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+img {
+  width: 40px;
+  display: flex:
+}
+
+ul li {
+  font-size: 1.125rem;
+  list-style-type: none;
+  text-decoration-style: none:
+}
+
+ul li:hover {
+  background-color: #a63f38;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+}
